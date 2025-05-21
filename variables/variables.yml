@@ -1,0 +1,11 @@
+variables:
+  custom_tags:
+    description: 'Example Complex Variable To Represent Tags'
+    type: complex
+    default:
+      spark_version: '13.2.x-scala2.11'
+      node_type_id: 'Standard_DS3_v2'
+      num_workers: 2
+  first_parameter:
+    type: string
+    default: parameter_value_1
